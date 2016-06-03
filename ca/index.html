@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TrustSpace CA</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/css/trustspace.css" type="text/css" />
+    <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+    <header>
+        <h1>TrustSpace CA</h1>
+    </header>
+    <section>
+        <h2>Certificates</h2>
+        <p>You'll find here the TrustSpace CA certificates.</p>
+        <p>You can install second-level CA certificates for the projects or entities you trust.</p>
+        <p>This allows you to review each CA practices and know if you wish to trust them.</p>
+        <p>If you trust the whole hierarchy, you can also install our root certificate.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Certificate name</th>
+                    <th>Description</th>
+                    <th>Link to certificate</th>
+                    <th>CA policies and information URL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TrustSpace CA</td>
+                    <td>Root CA</td>
+                    <td><a href="/certificates/TrustSpace_CA.crt">TrustSpace_CA.crt</a></td>
+                    <td>(here)</td>
+                </tr>
+                
+                <!-- TrustSpace CA for projects -->
+                <tr class="children-one">
+                    <td>TrustSpace CA for projects</td>
+                    <td>Signs CA certificates for trusted projects</td>
+                    <td><a href="/certificates/TrustSpace_CA_for_projects.crt">TrustSpace_CA_for_projects.crt</a></td>
+                    <td>(here)</td>
+                </tr>
+                <tr class="children-two">
+                    <td>Nasqueron CA</td>
+                    <td>CA for *.nasqueron.org and other Nasqueron projects</td>
+                    <td><a href="/certificates/Nasqueron_CA.crt">Nasqueron_CA.crt</a></td>
+                    <td><a href="http://agora.nasqueron.org/TrustSpace">Nasqueron wiki > TrustSpace</a></td>
+                </tr>
+                <tr class="children-two">
+                    <td><s>Grip</s></td>
+                    <td><s>CA for grip.espace-win.org services and hosted projects</s></td>
+                    <td><s><a href="//grip.espace-win.org/ca/ca.crt">(on Grip) ca.crt</s></a></td>
+                    <td><s><a href="//grip.espace-win.org/ca/">Grip CA information</a></s></td>
+                </tr>
+              
+                <!-- TrustSpace Hackerspaces CA  -->
+                <tr class="children-one">
+                    <td>TrustSpace Hackerspaces CA</td>
+                    <td>Signs CA certificates for hackerspaces</td>
+                    <td><a href="/certificates/TrustSpace_CA_for_hackerspaces.crt">TrustSpace_CA_for_hackerspaces.crt</a></td>
+                    <td>(here)</td>
+                </tr>
+                <tr class="children-two">
+                    <td>Wolfplex CA </td>
+                    <td>Wolfplex Hackerspace, Wolfplex IT infrastructure</td>
+                    <td><a href="/certificates/Wolfplex_CA.crt">Wolfplex_CA.crt</a></td>
+                    <td><a href="http://www.wolfplex.be/wiki/TrustSpace">Wolfplex wiki > TrustSpace</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Policies</h2>
+        <p>We're currently drafting our CPS.</p>
+    </section>
+    <section>
+        <h2>Revocation lists</h2>
+        <p>We'll publish here our CRL files.</p>
+    </section>
+    <footer>
+        <p>2013, TrustSpace | TrustSpace is a project by Wolfplex & Nasqueron to create a distributed CA for hackerspaces and communities' projects.</p>
+    </footer>
+</body>
+</html>
